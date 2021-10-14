@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import Form from '../components/Form/Form';
+import Form from '../Form/Form';
 
 export default function Main(){
     return(
