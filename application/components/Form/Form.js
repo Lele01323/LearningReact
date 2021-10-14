@@ -110,7 +110,7 @@ function validationImc(){
                     return(
 
                         <Text style={styles.resultImcItem}>
-                            <Text style={styles.textResultItemList}>Resultado IMC = {item.imc}</Text>
+                            <Text key={item.id} style={styles.textResultItemList}>Resultado IMC = {item.imc}</Text>
                         </Text>
             
                     );
